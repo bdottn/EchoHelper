@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1528D0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoHerlperLogic", "EchoHerlperLogic\EchoHerlperLogic.csproj", "{3A55E2FC-CDCB-48A0-A420-5786776E46B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoHelperModel", "..\Protocol\EchoHelperModel\EchoHelperModel.csproj", "{C0B4927B-B259-45B5-8966-9BECB1550EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoHelperProtocol", "..\Protocol\EchoHelperProtocol\EchoHelperProtocol.csproj", "{A425F58F-2076-404A-9C04-7BC25B01176B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,14 @@ Global
 		{3A55E2FC-CDCB-48A0-A420-5786776E46B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A55E2FC-CDCB-48A0-A420-5786776E46B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A55E2FC-CDCB-48A0-A420-5786776E46B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B4927B-B259-45B5-8966-9BECB1550EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B4927B-B259-45B5-8966-9BECB1550EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B4927B-B259-45B5-8966-9BECB1550EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B4927B-B259-45B5-8966-9BECB1550EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A425F58F-2076-404A-9C04-7BC25B01176B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A425F58F-2076-404A-9C04-7BC25B01176B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A425F58F-2076-404A-9C04-7BC25B01176B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A425F58F-2076-404A-9C04-7BC25B01176B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
