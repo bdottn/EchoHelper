@@ -36,6 +36,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Protocol\EchoHelperModel\EchoHelperModel.csproj">
+      <Project>{c0b4927b-b259-45b5-8966-9becb1550efb}</Project>
+      <Name>EchoHelperModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Protocol\EchoHelperProtocol\EchoHelperProtocol.csproj">
+      <Project>{a425f58f-2076-404a-9c04-7bc25b01176b}</Project>
+      <Name>EchoHelperProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
