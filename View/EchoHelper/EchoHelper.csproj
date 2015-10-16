@@ -75,6 +75,28 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Controller\EchoHelperController\EchoHelperController.csproj">
+      <Project>{7ee384c1-b380-4543-8c5f-5eeae8a8d018}</Project>
+      <Name>EchoHelperController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Logic\EchoHerlperLogic\EchoHerlperLogic.csproj">
+      <Project>{3a55e2fc-cdcb-48a0-a420-5786776e46b8}</Project>
+      <Name>EchoHerlperLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Physical\HechHelperPhysical\HechHelperPhysical.csproj">
+      <Project>{72b8dc66-8042-4612-9a78-ea3d0a90a65d}</Project>
+      <Name>HechHelperPhysical</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Protocol\EchoHelperModel\EchoHelperModel.csproj">
+      <Project>{c0b4927b-b259-45b5-8966-9becb1550efb}</Project>
+      <Name>EchoHelperModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Protocol\EchoHelperProtocol\EchoHelperProtocol.csproj">
+      <Project>{a425f58f-2076-404a-9c04-7bc25b01176b}</Project>
+      <Name>EchoHelperProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
